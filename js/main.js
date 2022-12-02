@@ -14,3 +14,15 @@ searchInputEl.addEventListener('blur', function(){
     searchEl.classList.remove('focused');
     searchInputEl.setAttribute('placeholder', '');
 });
+
+const badgeEl = document.querySelector('header .badges');
+
+window.addEventListener('scroll', _.throttle(function(){
+    console.log(window.scrollY);
+    if(window.scrollY > 500){
+        badgeEl.style.display = 'none';
+    } else{
+        badgeEl.style.display = 'block';
+    }
+}, 300));
+// _.throttle(함수, 시간) : 시간은 밀리세컨드 단위
