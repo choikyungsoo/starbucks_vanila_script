@@ -8,12 +8,13 @@
     }
 
     .visual{
-        margin-top: 70px;
+        margin-top: 120px;
     }
 }
 
 @media (max-width: 830px) {
     header > .inner{
+        width: 100%;
         height: 69px;
     }
     header .logo img{
@@ -22,10 +23,16 @@
     }
     header .mobile-menu{
         display: block;
-        float: right;
         margin-top: 10px;
+    }
+    header .mobile-menu ul{
+        float: right;
     }
     header .sub-menu, header .main-menu{
         display: none;
+    }
+
+    .visual{
+        margin-top: 80px;
     }
 }
