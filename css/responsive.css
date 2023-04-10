@@ -1,0 +1,29 @@
+@media (max-width: 1100px) {
+    header > .inner{
+        position: static
+    }
+
+    header .logo{
+        left: 10px;
+    }
+
+    .visual{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 830px) {
+    header > .inner{
+        height: 69px;
+    }
+    header .logo img{
+        width: 45px;
+        height: 45px;
+    }
+    header .mobile-menu{
+        margin-top: 10px;
+    }
+    header .sub-menu, header .main-menu{
+        display: none;
+    }
+}
