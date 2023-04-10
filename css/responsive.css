@@ -21,6 +21,8 @@
         height: 45px;
     }
     header .mobile-menu{
+        display: block;
+        float: right;
         margin-top: 10px;
     }
     header .sub-menu, header .main-menu{
