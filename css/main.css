@@ -623,7 +623,7 @@ header .badges .badge{
 .season-product .floating3{
     position: absolute;
     top: -200px;
-    right: 0;
+    left: 780px;
 }
 .season-product .text-group{
     position: absolute;
