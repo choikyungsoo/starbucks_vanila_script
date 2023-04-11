@@ -10,6 +10,43 @@
     .visual{
         margin-top: 120px;
     }
+
+    .visual .title{
+        left: 10px;
+    }
+
+    .visual .title img{
+        width: 42vw;
+    }
+
+    .visual .title .btn{
+        top: 23vw;
+        left: 15vw;
+        width: 12vw;
+        font-size: 1.5vw;
+        padding: 1.2vw;
+    }
+
+    .visual .cup1.image{
+        width: 25.3vw;
+        left: 75.2vw;
+    }
+
+    .visual .cup1.text{
+        right: 22.7vw;
+    }
+
+    .visual .cup2.image{
+        right: 16.6vw;
+    }
+
+    .visual .cup2.text{
+        right: 40vw;
+    }
+
+    .visual .spoon{
+        right: 30vw;
+    }
 }
 
 @media (max-width: 830px) {
@@ -32,7 +69,17 @@
         display: none;
     }
 
+    /* VISUAL */
     .visual{
         margin-top: 80px;
+    }
+
+    
+}
+
+@media (max-width: 500px){
+    .visual .title .btn{
+        width: 13vw;
+        font-size: 0.5vw;
     }
 }

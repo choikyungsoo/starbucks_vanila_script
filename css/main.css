@@ -142,6 +142,7 @@ header .mobile-menu ul li{
 header .mobile-menu ul li img{
     width: 25px;   
     height: 30px;
+    cursor: pointer;
 }
 
 header .sub-menu{
@@ -315,7 +316,7 @@ header .badges .badge{
 .visual .cup1.image{
     position: absolute;
     bottom: 0;
-    right: -47px;
+    left: 868px;
 }
 .visual .cup1.text{
     position: absolute;
