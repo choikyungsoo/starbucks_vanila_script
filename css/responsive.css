@@ -89,6 +89,32 @@
         width: 29vw;
     }
 
+    .season-product .text-group{
+        left: 43vw;
+    }
+
+    .reserve-store .inner{
+        width: 100%;
+    }
+
+    .reserve-coffee .inner{
+        width: 100%;
+        height: auto;
+    }
+
+    .reserve-coffee .reserve-logo{
+        left: 16.8vw;
+    }
+    .reserve-coffee .text-group{
+        left: 35.9vw;
+    }
+
+    .reserve-coffee .product{
+        position: static;
+        padding-top: 300px;
+        margin: auto;
+    }
+
 }
 
 @media (max-width: 830px) {
@@ -151,7 +177,51 @@
         justify-content: center;
     }
 
-    
+    .season-product .inner{
+        width: 100%;
+        height: 727px;
+    }
+
+    .season-product .product{
+        margin: auto;
+    }
+
+    .season-product .text-group{
+        position: static;
+    }
+
+    .season-product .text-group .title{
+        margin: 0px auto 10px;
+    }
+
+    .season-product .text-group .description{
+        margin: 0px auto 15px;
+    }
+
+    .season-product .text-group .more{
+        display: flex;
+        justify-content: center;
+    }
+
+    .reserve-coffee .inner{
+        padding-top: 50px;
+    }
+
+    .reserve-coffee .reserve-logo{
+        position: static;
+        margin: auto;
+    }
+    .reserve-coffee .text-group{
+        position: static;
+        margin-top: 30px;
+    }
+    .reserve-coffee .text-group .description,
+    .reserve-coffee .text-group .more .btn{
+        margin: auto;
+    }
+    .reserve-coffee .product{
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 500px){

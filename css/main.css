@@ -628,7 +628,7 @@ header .badges .badge{
 .season-product .text-group{
     position: absolute;
     top: 110px;
-    right: 100px;
+    left: 505px;
 }
 .season-product .text-group .title{
     margin-bottom: 10px;
@@ -643,6 +643,8 @@ header .badges .badge{
 /* RESERVE COFFEE */
 .reserve-coffee{
     background-image: url("../images/reserve_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .reserve-coffee .inner{
     height: 400px;
