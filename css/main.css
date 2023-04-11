@@ -379,9 +379,10 @@ header .badges .badge{
 }
 .notice .notice-line .inner__left h2{
     color: #fff;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
     margin-right: 20px;
+    margin-left: 10px;
 }
 .notice .notice-line .inner__left .swiper-container{
     height: 62px;
