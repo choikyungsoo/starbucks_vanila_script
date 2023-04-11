@@ -785,7 +785,7 @@ header .badges .badge{
     background-color: #272727;
 }
 .awards .inner{
-    padding: 40px 0;
+    padding: 40px;
 }
 .awards .inner .swiper-container{
     width: 100%;
@@ -831,6 +831,7 @@ footer .inner{
 }
 footer .menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 footer .menu li{
@@ -854,7 +855,7 @@ footer .menu li a{
     color: #ccc;
     font-size: 12px;
     font-weight: 700;
-    padding: 15px;
+    padding: 12px;
     display: block;
 }
 footer .menu li a.green{
@@ -873,11 +874,12 @@ footer .btn-group .btn:last-child{
     margin-right: 0;
 }
 footer .info{
-    margin-top: 30px;
+    margin: 30px 10px 0px;
     text-align: center;
 
 }
 footer .info span{
+    display: inline-block;
     margin-right: 20px;
     color: #999;
     font-size: 12px;

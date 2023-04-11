@@ -90,8 +90,20 @@ new Swiper('.promotion .swiper-container',{
 new Swiper('.awards .swiper-container', {
     autoplay: true,
     loop: true,
-    spaceBetween: 30,
-    slidesPerView: 5,
+    breakpoints: {
+        0: {
+            slidesPerView: 3,  //브라우저가 768보다 클 때
+            spaceBetween: 50,
+          },
+        800: {
+          slidesPerView: 4,  //브라우저가 768보다 클 때
+          spaceBetween: 10,
+        },
+        1100: {
+          slidesPerView: 5,  //브라우저가 1024보다 클 때
+          spaceBetween: 30,
+        },
+      },
     navigation: {
         prevEl: '.awards .swiper-prev',
         nextEl: '.awards .swiper-next'

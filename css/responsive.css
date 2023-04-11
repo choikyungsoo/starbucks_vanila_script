@@ -117,7 +117,7 @@
 
     
     .find-store .texture2{
-        left: 68vw;
+        left: 70vw;
     }
     .find-store .picture1{
         left: 1.8vw;
@@ -132,8 +132,16 @@
     .find-store .text-group{
         left: 50vw;
     }
-}
 
+    .awards .inner{
+        width: auto;
+    }
+
+    footer .inner{
+        width: 100%;
+    }
+
+}
 @media (max-width: 830px) {
     header > .inner{
         width: 100%;
