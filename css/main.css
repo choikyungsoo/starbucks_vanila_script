@@ -538,12 +538,13 @@ header .badges .badge{
 }
 .rewards .inner{
     background-image: url("../images/rewards.jpg");
+    background-repeat: no-repeat;
     height: 241px;
 }
 .rewards .btn-group{
     position: absolute;
     bottom: 24px;
-    right: 0;
+    right: 40px;
     width: 250px;
     display: flex;
     flex-wrap: wrap;
