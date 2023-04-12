@@ -36,7 +36,7 @@
 
     .visual .cup1.image{
         width: 25.3vw;
-        left: 75.2vw;
+        left: 74.2vw;
     }
 
     .visual .cup1.text{
@@ -174,6 +174,21 @@
     }
 
 }
+@media (max-width: 1014px) {
+    .notice .promotion .swiper-slide .btn{
+        bottom: 4vw;
+    }
+}
+@media (max-width: 950px) {
+    .notice .promotion .swiper-slide .btn{
+        bottom: 10vw;
+    }
+}
+@media (max-width:880px) {
+    .notice .promotion .swiper-slide .btn{
+        bottom: 12vw;
+    }
+}
 @media (max-width: 830px) {
     header > .inner{
         width: 100%;
@@ -196,11 +211,60 @@
 
     /* VISUAL */
     .visual{
+        background-repeat: no-repeat;
+        background-size: cover;
         margin-top: 80px;
     }
 
+    .visual .inner{
+        width: 100%;
+        height: 1000px;
+    }
+
     .visual .title{
-        top: 7vw;
+        position: static;
+        padding-top: 70px;
+    }
+
+    .visual .title img{
+        width: 400px;
+        margin: auto;
+    }
+
+    .visual .title .btn{
+        position: static;
+        margin: 30px auto 0 ;
+        width: 100px;
+        font-size: 14px;
+        padding: 1.2vw;
+    }
+
+    .visual .cup1.image{
+        width: 271px;
+        left: 58.2vw;
+    }
+
+    .visual .cup1.text{
+        width: 177px;
+        left: 37.2vw;
+        top: 450px;
+    }
+    
+
+    .visual .cup2.image{
+        width: 245px;
+        left: 35.1vw;
+    }
+
+    .visual .cup2.text{
+        width: 230px;
+        top: 700px;
+        left: 7.4vw;
+    }
+
+    .visual .spoon{
+        width: 380px;
+        left: 6.7vw;
     }
 
     /* NOTICE */
@@ -231,6 +295,17 @@
         width: 100%;
         justify-content: center;
     }
+
+    .notice .promotion .swiper-prev,
+    .notice .promotion .swiper-next,
+    .notice .promotion .swiper-slide .btn{
+        display: none;
+    }
+
+    .notice .promotion .swiper-pagination{
+        bottom: 5vw;
+    }
+    
     .rewards .inner{
         background-size: cover;
         width: 100vw;
@@ -309,10 +384,58 @@
         margin: 0 auto 20px;
     }
 }
+@media (max-width: 580px){
+    .visual .cup1.image{
+        width: 45.9vw;
+        left: 58.2vw;
+    }
 
+    .visual .cup1.text{
+        width: 30vw;
+        left: 37.2vw;
+        top: 76.2vw;
+    }
+    
+
+    .visual .cup2.image{
+        width: 41.5vw;
+        left: 35.1vw;
+    }
+
+    .visual .cup2.text{
+        width: 38.9vw;
+        top: 118.6vw;
+        left: 7.4vw;
+    }
+
+    .visual .spoon{
+        width: 64.4vw;
+        left: 6.7vw;
+    }
+}
 @media (max-width: 500px){
-    .visual .title .btn{
-        width: 13vw;
-        font-size: 0.5vw;
+    .visual .cup1.image{
+        left: 58.2vw;
+    }
+
+    .visual .cup1.text{
+        left: 37.2vw;
+    }
+    
+
+    .visual .cup2.image{
+        left: 35.1vw;
+    }
+
+    .visual .cup2.text{
+        left: 7.4vw;
+    }
+
+    .visual .spoon{
+        left: 6.7vw;
+    }
+
+    .notice .promotion .swiper-pagination{
+        bottom: 2vw;
     }
 }
